@@ -1,0 +1,2 @@
+include imx.scc
+kconf hardware imx7.cfg

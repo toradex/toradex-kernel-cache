@@ -1,0 +1,4 @@
+include imx7.scc
+
+include arch/arm/arm-smp.scc
+kconf hardware imx7d.cfg

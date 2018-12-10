@@ -1,0 +1,69 @@
+# Include this kernel type fragment to get the standard features and
+# configuration values.
+
+# Note: if only the features are desired, but not the configuration
+#       then this should be included as:
+#             include ktypes/standard/standard.scc nocfg
+#       if no chained configuration is desired, include it as:
+#             include ktypes/standard/standard.scc nocfg inherit
+
+
+
+include ktypes/base/base.scc
+branch standard
+
+include cfg/timer/rtc.scc
+include cfg/virtio.scc
+include cfg/dmaengine.scc
+include cfg/sound.scc
+include cfg/net/ipv6.scc
+
+include features/can/can.scc
+include features/bluetooth/bluetooth.scc
+include features/bluetooth/bluetooth-usb.scc
+include features/usb/usb-base.scc
+# this is more imx6 apalis thing. Move it
+include features/usb/usb-pci.scc
+include features/usb-net/usb-net.scc
+include features/wifi/wifi-common.scc
+include features/wifi/wifi-pci.scc
+include features/wifi/wifi-sdio.scc
+include features/wifi/wifi-usb.scc
+include features/net/net.scc
+include features/lxc/lxc-enable.scc
+include features/leds/leds.scc
+include features/i2c/i2c.scc
+include features/i2c/i2c-dev.scc
+include features/media/media.scc
+include features/media/media-platform.scc
+include features/media/media-usb-webcams.scc
+include features/timer/rtc.scc
+include features/spi/spi.scc
+include features/spi/spidev.scc
+include features/mmc/mmc-sdhci.scc
+include features/thermal/thermal.scc
+include features/serial/serial.scc
+include features/char/port.scc
+include features/scsi/scsi.scc
+include features/pci/pci.scc
+
+include features/net/ip_vs.scc
+include features/net/ipsec.scc
+include features/net/bridge.scc
+include features/net/network.scc
+
+include features/netfilter/netfilter.scc
+include features/nf_tables/nf_tables.scc
+include features/media/i2c/camera.cfg
+
+include features/mii-phy.cfg
+include features/usb/touchscreen.cfg
+include features/usb/webcam.cfg
+include features/usb/hid.cfg
+include features/usb/host.cfg
+include features/usb/storage.cfg
+
+include features/usb/usb.cfg
+include patches/patches.scc
+
+kconf non-hardware standard.cfg

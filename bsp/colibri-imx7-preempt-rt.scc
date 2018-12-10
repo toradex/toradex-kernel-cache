@@ -1,0 +1,8 @@
+# All configuration specific only to Colibri-imx7 standard kernel build.
+# This file overwrites all other configurations
+define KMACHINE colibri-imx7
+define KTYPE preempt-rt 
+define KARCH arm
+
+include colibri-imx7.scc
+include ktypes/preempt-rt/preempt-rt.scc

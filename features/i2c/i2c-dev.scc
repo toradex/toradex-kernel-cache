@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable some I2C devices"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware i2c-dev.cfg

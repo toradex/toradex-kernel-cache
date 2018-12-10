@@ -1,0 +1,5 @@
+include arch/arm/arm.scc
+
+include cfg/debug/debug-coresight.scc
+include cfg/timer-no-hz.scc
+kconf hardware imx.cfg
