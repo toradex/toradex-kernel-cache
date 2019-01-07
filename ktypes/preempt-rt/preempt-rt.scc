@@ -19,6 +19,7 @@ include cfg/sound.scc
 include cfg/net/ipv6.scc
 
 include features/can/can.scc
+include features/rfkill/rfkill.scc
 include features/bluetooth/bluetooth.scc
 include features/bluetooth/bluetooth-usb.scc
 include features/usb/usb-base.scc
