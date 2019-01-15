@@ -1,3 +1,3 @@
 include imx.scc
-include arch/arm/arm-smp.scc
+include arch/arm/arm-up.scc
 kconf hardware imx6ull.cfg
