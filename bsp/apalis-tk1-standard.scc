@@ -1,9 +1,9 @@
 # All configuration specific only to Apalis-IMX6 standard kernel build.
 # This file overwrites all other configurations
-define KMACHINE apalis-imx6
+define KMACHINE apalis-tk1
 define KARCH arm
 define KTYPE standard
 
-include apalis-imx6.scc
+include apalis-tk1.scc
 include ktypes/standard/standard.scc
 

@@ -1,2 +1,2 @@
-include imx/imx6.scc
-kconf hardware apalis-imx6.cfg
+include imx/tk1.scc
+kconf hardware apalis-tk1.cfg

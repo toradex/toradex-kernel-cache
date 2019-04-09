@@ -1,0 +1,3 @@
+include imx.scc
+include arch/arm/arm-smp.scc
+kconf hardware tk1.cfg
