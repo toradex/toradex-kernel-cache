@@ -1,0 +1,9 @@
+# All configuration specific only to Apalis-TK1 standard kernel build.
+# This file overwrites all other configurations
+define KMACHINE apalis-tk1
+define KARCH arm
+define KTYPE standard
+
+include apalis-tk1.scc
+include ktypes/standard/standard.scc
+
