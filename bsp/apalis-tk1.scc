@@ -1,2 +1,2 @@
-include imx/tk1.scc
+include nvidia/tk1.scc
 kconf hardware apalis-tk1.cfg
