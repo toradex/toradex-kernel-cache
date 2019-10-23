@@ -1,0 +1,3 @@
+define KFEATURE_DESCRIPTION "Enable VFIO support"
+
+kconf hardware vfio.cfg

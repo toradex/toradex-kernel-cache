@@ -1,0 +1,6 @@
+include cfg/paravirt_kvm.scc
+include cfg/virtio.scc
+include features/vfio/vfio.scc
+
+kconf hardware qemuarm64.cfg
+kconf hardware qemuarm64-gfx.cfg
