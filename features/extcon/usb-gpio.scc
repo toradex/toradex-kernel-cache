@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable Extcon USB GPIO driver"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware usb-gpio.cfg
