@@ -1,0 +1,2 @@
+include imx/imx8.scc
+kconf hardware verdin-imx8mm.cfg
