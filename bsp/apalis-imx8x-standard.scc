@@ -1,0 +1,8 @@
+# All configuration specific only to Apalis-IMX8X standard kernel build.
+# This file overwrites all other configurations
+define KMACHINE apalis-imx8x
+define KARCH arm64
+define KTYPE standard
+
+include apalis-imx8x.scc
+include ktypes/standard/standard.scc

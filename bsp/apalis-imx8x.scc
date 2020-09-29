@@ -1,0 +1,2 @@
+include imx/imx8.scc
+kconf hardware apalis-imx8x.cfg
