@@ -1,4 +1,4 @@
-# All configuration specific only to Colibri-IMX6 standard kernel build.
+# All configuration specific only to Colibri-IMX6 preempt-rt kernel build.
 # This file overwrites all other configurations
 define KMACHINE colibri-imx6
 define KARCH arm
