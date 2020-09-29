@@ -1,0 +1,8 @@
+# All configuration specific only to Apalis-IMX8 preempt-rt kernel build.
+# This file overwrites all other configurations
+define KMACHINE apalis-imx8
+define KARCH arm64
+define KTYPE preempt-rt
+
+include apalis-imx8.scc
+include ktypes/preempt-rt/preempt-rt.scc
