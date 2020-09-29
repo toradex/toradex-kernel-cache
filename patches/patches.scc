@@ -1,1 +1,2 @@
+include patches/drivers/drivers.scc
 include patches/net/net.scc
