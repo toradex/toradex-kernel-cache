@@ -6,4 +6,3 @@ define KTYPE standard
 
 include colibri-imx6.scc
 include ktypes/standard/standard.scc
-
