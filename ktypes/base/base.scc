@@ -1,7 +1,7 @@
-define KERNEL_VERSION 4.19
+define KERNEL_VERSION 5.4
 
 # Force the base configuration
 
-branch v4.19
+branch v5.4
 
 force kconf non-hardware base.cfg
