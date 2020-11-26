@@ -50,6 +50,8 @@ include features/char/port.scc
 include features/scsi/scsi.scc
 include features/pci/pci.scc
 include features/extcon/usb-gpio.scc
+include features/tpm/tpm.scc
+include features/uio/uio.scc
 
 include features/net/ip_vs.scc
 include features/net/ipsec.scc
