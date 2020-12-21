@@ -72,4 +72,6 @@ include features/usb/storage.cfg
 include features/usb/usb.cfg
 include patches/patches.scc
 
+include features/input/uinput.cfg
+
 kconf non-hardware standard.cfg

@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable Userspace Input devices"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware uinput.cfg
