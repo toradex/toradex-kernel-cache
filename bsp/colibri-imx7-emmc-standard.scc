@@ -1,8 +1,8 @@
 # All configuration specific only to Colibri-imx7 standard kernel build.
 # This file overwrites all other configurations
-define KMACHINE colibri-imx7
+define KMACHINE colibri-imx7-emmc
 define KARCH arm
 define KTYPE standard
 
-include colibri-imx7.scc
+include colibri-imx7-emmc.scc
 include ktypes/standard/standard.scc

@@ -1,8 +1,0 @@
-# All configuration specific only to Colibri-iMX6ULL preempt-rt kernel build.
-# This file overwrites all other configurations
-define KMACHINE colibri-imx6ull
-define KARCH arm
-define KTYPE preempt-rt
-
-include colibri-imx6ull.scc
-include ktypes/preempt-rt/preempt-rt.scc

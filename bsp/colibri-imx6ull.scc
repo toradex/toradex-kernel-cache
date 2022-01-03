@@ -1,2 +1,0 @@
-include imx/imx6ull.scc
-kconf hardware colibri-imx6ull.cfg

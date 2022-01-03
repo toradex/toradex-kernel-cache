@@ -1,2 +1,0 @@
-include imx/imx7d.scc
-kconf hardware colibri-imx7.cfg
