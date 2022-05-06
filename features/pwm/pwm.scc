@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable PWM class and drivers"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware pwm.cfg

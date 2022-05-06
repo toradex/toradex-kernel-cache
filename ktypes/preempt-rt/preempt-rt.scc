@@ -33,6 +33,7 @@ include features/wifi/wifi-usb.scc
 include features/net/net.scc
 include features/lxc/lxc-enable.scc
 include features/leds/leds.scc
+include features/pwm/pwm.scc
 include features/i2c/i2c.scc
 include features/i2c/i2c-dev.scc
 include features/media/media.scc
