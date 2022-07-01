@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable Dallas' 1-wire bus support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware w1.cfg
