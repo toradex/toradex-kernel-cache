@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable PINCTRL infrastructure and drivers"
+define KFEATURE_COMPATIBILITY board
+
+kconfig hardware pinctrl.cfg
