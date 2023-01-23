@@ -55,6 +55,7 @@ include features/tpm/tpm.scc
 include features/uio/uio.scc
 include features/w1/w1.scc
 include features/pinctrl/pinctrl.scc
+include features/clock/clock.scc
 
 include features/net/ip_vs.scc
 include features/net/ipsec.scc

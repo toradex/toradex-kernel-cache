@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable clock support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware clock.cfg
