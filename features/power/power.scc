@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable power supply and power/reset drivers"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware power.cfg
