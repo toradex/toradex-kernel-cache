@@ -58,6 +58,7 @@ include features/pinctrl/pinctrl.scc
 include features/clock/clock.scc
 include features/power/power.scc
 include features/fs/fs.scc
+include features/md/md.scc
 
 include features/net/ip_vs.scc
 include features/net/ipsec.scc
