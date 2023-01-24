@@ -57,6 +57,7 @@ include features/w1/w1.scc
 include features/pinctrl/pinctrl.scc
 include features/clock/clock.scc
 include features/power/power.scc
+include features/fs/fs.scc
 
 include features/net/ip_vs.scc
 include features/net/ipsec.scc
