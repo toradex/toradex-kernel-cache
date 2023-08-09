@@ -1,0 +1,2 @@
+include ti/am62xx.scc
+kconf hardware verdin-am62.cfg
