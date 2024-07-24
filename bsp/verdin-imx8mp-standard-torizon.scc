@@ -1,8 +1,3 @@
 # All configuration specific only to VERDIN-IMX8MP standard kernel build.
-# This file overwrites all other configurations
-define KMACHINE verdin-imx8mp
-define KARCH arm64
-define KTYPE standard
-
 include verdin-imx8mp.scc
 include ktypes/standard/standard.scc
