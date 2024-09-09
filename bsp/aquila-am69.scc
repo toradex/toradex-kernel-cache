@@ -1,0 +1,2 @@
+include ti/am69.scc
+kconf hardware aquila-am69.cfg
