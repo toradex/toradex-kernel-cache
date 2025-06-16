@@ -1,0 +1,2 @@
+include imx/imx95.scc
+kconf hardware toradex-smarc-imx95.cfg
