@@ -1,2 +1,2 @@
-include imx/imx8.scc
+include imx/imx95.scc
 kconf hardware verdin-imx95.cfg
