@@ -7,7 +7,7 @@
 #       if no chained configuration is desired, include it as:
 #             include ktypes/standard/standard.scc nocfg inherit
 
-
+include arch/arm/32bit-compat.scc
 
 include ktypes/base/base.scc
 branch standard
