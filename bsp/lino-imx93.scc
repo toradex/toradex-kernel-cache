@@ -1,0 +1,2 @@
+include imx/imx93.scc
+kconf hardware lino-imx93.cfg
