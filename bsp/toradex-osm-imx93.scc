@@ -1,0 +1,2 @@
+include imx/imx93.scc
+kconf hardware toradex-osm-imx93.cfg
