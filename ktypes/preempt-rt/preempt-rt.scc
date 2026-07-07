@@ -72,6 +72,7 @@ include features/usb/storage.cfg
 include features/usb/usb.cfg
 include patches/patches.scc
 
+include features/input/uinput.cfg
 include features/fbtft/fbtft.scc
 
 kconf non-hardware preempt-rt.cfg
