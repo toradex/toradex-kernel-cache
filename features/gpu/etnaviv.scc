@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "Enable etnaviv DRM driver for Vivante GPUs"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware etnaviv.cfg

@@ -1,3 +1,4 @@
 include imx.scc
 include arch/arm/arm-smp.scc
+include features/gpu/etnaviv.scc
 kconf hardware imx6.cfg
